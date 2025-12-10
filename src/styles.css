@@ -123,3 +123,11 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+img.socialIcon {
+  transition: transform 0.3s ease-in-out;
+}
+
+img.socialIcon:hover {
+  transform: scale(1.3) rotate(10deg);
+}
